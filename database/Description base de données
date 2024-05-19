@@ -1,0 +1,19 @@
+J'ai recupéré  sur kaggle la base de données de TheLook.
+TheLook est un site e-commerce fictif de vêtements développé par l'équipe Looker. Le jeu de données contient des informations sur les clients, les produits, 
+les commandes, la logistique, les événements web et les campagnes de marketing digital. 
+Il s'agit d'un jeu de données publique que j'utiliserai à des fins d'analyse de données et d'appentissage du SQL.
+
+Cette base de données contient 7 tables qui suit :
+
+- distribution_centers.csv
+
+cette 
+id : Identifiant unique pour chaque centre de distribution
+
+name : Nom du centre de distribution
+
+latitude : Coordonnée de latitude du centre de distribution
+
+longitude : Coordonnée de longitude du centre de distribution 
+
+
