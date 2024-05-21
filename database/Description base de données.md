@@ -20,7 +20,10 @@ latitude : Coordonnée de latitude du centre de distribution
 longitude : Coordonnée de longitude du centre de distribution 
 
 
+
+
 **- events.csv**
+
 Regroupe les informations sur l'evenement web
 
 id : Identifiant unique de chaque evenement
@@ -42,6 +45,9 @@ state : État où l'événement s'est produit
 postal_code : Code postal du lieu de l'événement
 
 browser : Navigateur web utilisé pendant l'événement
+
+
+
 
 
 
@@ -70,6 +76,9 @@ product_retail_price : Prix de détail du produit associé.
 product_department : Département auquel le produit appartient.
 
 
+
+
+
 **-  order_items.csv**
 
 Elle contient les informations sur chaque article de commande
@@ -95,6 +104,9 @@ delivered_at : Timestamp indicating when the order item was delivered.
 returned_at : Horodatage indiquant quand l'élément de commande a été retourné.
 
 
+
+
+
 **- orders.csv**
 
 Elle contient les informations sur chaque commande
@@ -116,6 +128,9 @@ shipped_at : Horodatage indiquant quand la commande a été expédiée.
 delivered_at : Horodatage indiquant quand la commande a été livrée.
 
 num_of_item : Nombre d'articles dans la commande.
+
+
+
 
 
 **- products.csv**
@@ -141,7 +156,10 @@ sku : Unité de gestion des stocks (SKU) du produit.
 distribution_center_id : Identifiant du centre de distribution associé au produit.
 
 
+
+
 **- users.csv**
+
 contient les onformations sur les utilisateurs
 
 id : Identifiant unique pour chaque utilisateur.
