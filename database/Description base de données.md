@@ -1,4 +1,5 @@
 J'ai recupéré  sur kaggle la base de données de TheLook.
+
 TheLook est un site e-commerce fictif de vêtements développé par l'équipe Looker. Le jeu de données contient des informations sur les clients, les produits, 
 les commandes, la logistique, les événements web et les campagnes de marketing digital. 
 Il s'agit d'un jeu de données publique que j'utiliserai à des fins d'analyse de données et d'appentissage du SQL.
@@ -45,6 +46,7 @@ browser : Navigateur web utilisé pendant l'événement
 
 
 **- inventory_items.csv**
+
 contient les informations sur les artciles en stock
 
 id  : Identifiant unique pour chaque article en stock
@@ -77,7 +79,9 @@ id : Identifiant unique pour chaque élément de commande
 order_id : Identifiant de la commande associée.
 
 user_id : Identifiant de l'utilisateur ayant passé la commande.
+
 product_id : Identifiant du produit associé.
+
 inventory_item_id : Identifiant de l'article en stock associé.
 
 status : État de l'élément de commande.
