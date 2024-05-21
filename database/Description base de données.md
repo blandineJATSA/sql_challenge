@@ -7,7 +7,7 @@ Il s'agit d'un jeu de données publique que j'utiliserai à des fins d'analyse d
 
 Cette base de données contient 7 tables qui suit :
 
-**- distribution_centers.csv**
+### **- distribution_centers.csv**
 
 Cette base de données decrire les centres de distribution des produits.
 
@@ -22,7 +22,7 @@ longitude : Coordonnée de longitude du centre de distribution
 
 
 
-**- events.csv**
+### **- events.csv**
 
 Regroupe les informations sur l'evenement web
 
@@ -51,7 +51,7 @@ browser : Navigateur web utilisé pendant l'événement
 
 
 
-**- inventory_items.csv**
+### **- inventory_items.csv**
 
 contient les informations sur les artciles en stock
 
@@ -79,7 +79,7 @@ product_department : Département auquel le produit appartient.
 
 
 
-**-  order_items.csv**
+### **-  order_items.csv**
 
 Elle contient les informations sur chaque article de commande
 
@@ -107,7 +107,7 @@ returned_at : Horodatage indiquant quand l'élément de commande a été retourn
 
 
 
-**- orders.csv**
+### **- orders.csv**
 
 Elle contient les informations sur chaque commande
 
@@ -133,7 +133,7 @@ num_of_item : Nombre d'articles dans la commande.
 
 
 
-**- products.csv**
+### **- products.csv**
   
 contient les informations sur chaque produit
 
@@ -158,7 +158,7 @@ distribution_center_id : Identifiant du centre de distribution associé au produ
 
 
 
-**- users.csv**
+### **- users.csv**
 
 contient les onformations sur les utilisateurs
 
