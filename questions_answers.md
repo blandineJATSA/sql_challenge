@@ -1,8 +1,7 @@
-Dans ce fichier, je presente et je proposes des questions qui pourraient etre traité dans ce projet.
+Dans ce fichier, je presente et je proposes des questions qui pourraient etre traités dans ce projet.
 
 Déja, voici ce que j'ai trouvé sur kaggle
 
-Analyses potentielles :
 
 **Analyse géospatiale :**
 
