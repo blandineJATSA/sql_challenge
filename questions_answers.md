@@ -32,3 +32,7 @@ Ces analyses fournissent des informations sur l'engagement des utilisateurs, les
 
 
 Ci-après mes propres reflexions
+
+comprendre quels types d'activités marketing génèrent ces commandes.
+
+Comment le site web performe-t-il pour générer ces commandes ?
