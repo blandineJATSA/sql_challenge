@@ -1,0 +1,1 @@
+Voir directement les notions de jointure dans le fichier notebook sql nommé jointures_sql_jour8.ipynb

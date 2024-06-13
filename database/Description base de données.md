@@ -24,13 +24,18 @@ longitude : Coordonnée de longitude du centre de distribution
 
 ### **- events.csv**
 
-Regroupe les informations sur l'evenement web
+Elle capture les evenenements et les interactions que le site a avec les clients.
 
 id : Identifiant unique de chaque evenement
+Chaque fois qu'un utilisateur effectue une action sur le site ou l'application, un nouvel enregistrement est ajouté à la table events avec le type d'événement correspondant.
+Ainsi, si un utilisateur consulte 10 produits différents, il y aura 10 enregistrements dans la table events avec le event_type égal à view_product.
+
 
 user_id : Identifiant de l'utilisateur associé à l'événement web
 
-sequence_number : Numéro de séquence de l'événement
+sequence_number : Cette colonne indique l'ordre des événements dans une séquence donnée, souvent pour un utilisateur ou une session spécifique. Par exemple, si un utilisateur visite plusieurs pages d'un site web dans une session, chaque événement de "view_product" ou de "add_to_cart" pourrait avoir un numéro de séquence croissant pour cette session spécifique. Cela permet d'analyser le parcours de l'utilisateur à travers votre application ou votre site web.
+
+event_type : Cette colonne indique le type d'événement qui s'est produit. Par exemple, dans une application de commerce électronique, les types d'événements pourraient inclure "view_product" (consultation de produit), "add_to_cart" (ajout au panier), "purchase" (achat), etc. Comprendre les différents types d'événements peut être crucial pour analyser le comportement des utilisateurs et améliorer l'expérience utilisateur.  
 
 session_id : Identifiant de la session pendant laquelle l'événement s'est produit
 
