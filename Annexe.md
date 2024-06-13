@@ -1,6 +1,6 @@
 Ce document contient les définitions et informations détaillées sur l’analyse des données du site E-commerce TheLook.
 
-**Les Différentes Pages d'un Site E-commerce**
+## **Les Différentes Pages d'un Site E-commerce**
 
 - Home Page - La page d'accueil du site.
 
@@ -23,7 +23,7 @@ Ce document contient les définitions et informations détaillées sur l’analy
 - Sign Up Page - La page d'inscription.
 
 
-**Les événements associés aux pages**
+## **Les événements associés aux pages**
 
 - Page View - Quand un utilisateur visite une page .
 
@@ -47,7 +47,7 @@ Ce document contient les définitions et informations détaillées sur l’analy
 
 
 
-👍**La colonne event_type de la table events**
+## 👍**La colonne event_type de la table events**
 
 
 la colonne event_type specifie le type d’événement que nous avons dans notre site E-commerce.
@@ -70,7 +70,7 @@ la colonne event_type specifie le type d’événement que nous avons dans notre
 
 
 
-**Les différentes sources de trafic :** 
+## **Les différentes sources de trafic :** 
 
 - Sources de Trafic : Les canaux par lesquels les utilisateurs arrivent sur TheLook. Ces sources peuvent inclure :
 
@@ -85,7 +85,7 @@ la colonne event_type specifie le type d’événement que nous avons dans notre
 - Publicité payante : Utilisateurs venant de campagnes publicitaires payantes.
 
 
-👍 **La colonne traffic_source**
+##  👍 **La colonne traffic_source**
 
 Email,
 
@@ -100,7 +100,7 @@ Organic
 Concernant les Publicités payantes, nous  avons les paramètres UTM(Urchin Tracking Module) utilisés dans les URL pour aider à suivre l'efficacité des campagnes marketing et à identifier les sources de trafic vers un site web.
 Les paramètres UTM sont ajoutés aux liens de campagnes et permettent d'obtenir des données détaillées sur les visiteurs et leurs interactions avec le contenu.
 
-**Paramètres UTM Principaux**
+## **Paramètres UTM Principaux**
 
 Les paramètres UTM courants incluent :
 
@@ -118,7 +118,7 @@ Les paramètres UTM courants incluent :
 EXemple d’url avec tout les paramètres UTM.
 https://www.thelook.com/product/123?utm_source=google&utm_medium=cpc&utm_campaign=spring_sale&utm_term=red_dress&utm_content=text_ad
 
-👍 **Les sessions**
+## 👍 **Les sessions**
 
 Les sessions ne proviennent pas des UTM, mais des Cookies. 
 
@@ -126,16 +126,16 @@ Les cookies sont de petits fichiers de texte stockés sur le disque dur d'un uti
 
 Ils sont utilisés notamment pour suivre les sessions des utilisateurs, stocker des informations de préférence, et personnaliser l'expérience utilisateur sur un site web.
 
-**Types de Cookies**
+##  **Types de Cookies**
 
-**Cookies de Session :**
+### **Cookies de Session :**
 
 **Description :** Ces cookies sont temporaires et sont effacés lorsque l'utilisateur ferme son navigateur.
 
 **Utilisation :** Suivre les actions d'un utilisateur pendant une session de navigation (par exemple, garder les articles dans un panier d'achat).
 
 
-👍 **BROWSER ( navigateur web)**
+## 👍 **BROWSER ( navigateur web)**
 
 C’est un logiciel permettant d'accéder à des pages web sur Internet.
 
@@ -152,11 +152,11 @@ Safari
 Others (Edge, opera,etc)
 
 
-**Table orders**
+## **Table orders**
 
 La table des commandes est vraiment importante pour toute entreprise de commerce électronique. C'est là que les événements de revenus sont suivis.
 
-👍 **La colonne status**
+## 👍 **La colonne status**
 
  - Status fait souvent référence à l'état actuel d'une commande. 
 
@@ -171,16 +171,16 @@ La table des commandes est vraiment importante pour toute entreprise de commerce
 - Returned : La commande ou une partie de celle-ci a été retournée par le client
 
 
-**ANALYSE DE SOURCE DE TRAFFIC  ( tables events et orders)**
+## **ANALYSE DE SOURCE DE TRAFFIC  ( tables events et orders)**
 
 
 L'analyse des sources de trafic consiste à comprendre d'où viennent vos clients et quels sont les canaux qui génèrent le trafic de la plus haute qualité.
 
 
-**QUESTION 1 :**  D’où proviennent la majorité des sessions de site web ? Comment elles sont reparties par source de trafic, par type de campagne, par source de navigateur, par type de contenu  ?
+### **QUESTION 1 :**  D’où proviennent la majorité des sessions de site web ? Comment elles sont reparties par source de trafic, par type de campagne, par source de navigateur, par type de contenu  ?
 
 
-**QUESTION 2 :** TAUX DE CONVERSIONS DE SESSIONS EN COMMANDES
+### **QUESTION 2 :** TAUX DE CONVERSIONS DE SESSIONS EN COMMANDES
 
 
 D’après les résultats de la première question, les campagnes emailing et les annonces googles adwords sont les deux sources de traffic les plus importantes. 
@@ -188,7 +188,7 @@ D’après les résultats de la première question, les campagnes emailing et le
 Nous souhaitons creuser profondément ces campagnes et essayer de comprendre les taux de conversion des sessions en commandes. En d'autres termes, il s'agit de déterminer quel pourcentage des sessions se convertissent en vente pour l'entreprise.
 
 
-**CVR  (Conversion Rate) signifie taux de conversion :**  C'est une métrique utilisée pour mesurer l'efficacité d'une campagne ou d'un site web en termes de conversions
+#### **CVR  (Conversion Rate) signifie taux de conversion :**  C'est une métrique utilisée pour mesurer l'efficacité d'une campagne ou d'un site web en termes de conversions
 
 **CVR :** Le pourcentage de visiteurs d'un site web ou d'une campagne marketing qui effectuent une action souhaitée, comme un achat, une inscription, ou une demande de devis.
 
